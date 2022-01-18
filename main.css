@@ -1,11 +1,11 @@
 @font-face {
   font-family: expletus;
-  src: url(/fonts/ExpletusSans-Regular.ttf);
+  src: url(ExpletusSans-Regular.ttf);
 }
 
 body {
   margin: 0;
-  background-image: url(/images/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
