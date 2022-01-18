@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+
+    
+    <h2>Votre météo en temps réel</h2>
+    <input
+      type="text"
+      name="search"
+      id="search"
+      placeholder="Entrez votre ville"
+    />
+    <input type="button" id="submit" value="Rechercher" />
+    <div class="box-container">
+      <div class="box box-city">
+        <img src="/images/city.png" alt="" srcset="" />
+        <p id="city">Ville</p>
+      </div>
+      <div class="box box-temp">
+        <img src="/images/temp.png" alt="" srcset="" />
+        <p id="temp">Température</p>
+      </div>
+      <div class="box box-humidity">
+        <img src="/images/humidity.png" alt="" />
+        <p id="humidity">Humidité</p>
+      </div>
+      <div class="box box-wind">
+        <img src="/images/wind.png" alt="" srcset="" />
+        <p id="wind">Vent</p>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

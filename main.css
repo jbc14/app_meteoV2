@@ -1,0 +1,174 @@
+@font-face {
+  font-family: expletus;
+  src: url(/fonts/ExpletusSans-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+h1 {
+  font-family: expletus;
+  text-align: center;
+  font-size: 4rem;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 545px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+
+h2 {
+  font-family: expletus;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 10px;
+  width: 80%;
+}
+
+@media all and (max-width: 545px) {
+  h2 {
+    display: none;
+  }
+}
+
+#search {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-size: large;
+  text-align: center;
+}
+
+@media all and (max-width: 545px) {
+  #search {
+    width: 80%;
+    height: 30px;
+  }
+}
+
+#submit {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  font-family: expletus;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+@media all and (max-width: 545px) {
+  #submit {
+    margin-top: 5px;
+  }
+}
+
+.box-container {
+  margin-top: 40px;
+  width: 450px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+}
+
+@media all and (max-width: 545px) {
+  .box-container {
+    width: 225px;
+    height: 900px;
+    margin-top: 10px;
+  }
+}
+
+.box-container .box {
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  font-family: expletus;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-container .box-city {
+  background-color: rgba(11, 75, 13, 0.45);
+}
+
+.box-container .box-city img {
+  width: auto;
+  height: 40px;
+}
+
+.box-container .box-temp {
+  background-color: rgba(21, 43, 117, 0.555);
+}
+
+.box-container .box-temp img {
+  width: auto;
+  height: 40px;
+}
+
+.box-container .box-humidity {
+  background-color: rgba(39, 13, 117, 0.45);
+}
+
+.box-container .box-humidity img {
+  width: auto;
+  height: 40px;
+}
+
+.box-container .box-wind {
+  background-color: rgba(87, 12, 93, 0.329);
+}
+
+.box-container .box-wind img {
+  width: auto;
+  height: 40px;
+}
+/*# sourceMappingURL=main.css.map */
